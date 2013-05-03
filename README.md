@@ -1,7 +1,15 @@
-simulsig
+SimulSig
 ========
 
-Using Markov Chains to generate signals from a large database of MFCC's
+A new approach to audio-mosaicing using probabilistic modelling
+
+NOTE: The original repo containing commits from the last 4 months can be found here : https://github.com/tomrushmore/historic-simulsig-repo
+Numerous clones were unremovable during git cleanup resulting in an unweidly size of 1.5gb
+
+
+README
+========
+instructions
 
 dependencies
 ========
