@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/FFT Chain/FFT.cpp"
+         timestampString = "384379460.919438"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "141"
+         endingLineNumber = "141"
+         landmarkName = "FFT::FFTWConvertVDSP(fftw_complex *fftw)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/FFT Chain/StateMFCCs.cpp"
+         timestampString = "386012950.42652"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "71"
+         endingLineNumber = "71"
+         landmarkName = "StateMFCCs::WriteMFCCFFTPairs()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/FFT Chain/kdTreeStruct.h"
+         timestampString = "385237840.878029"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
+         landmarkName = "add_database(double **mfcc_vec,const int num_coef,const long num_frames)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/FFT Chain/kdTree.cpp"
+         timestampString = "385241442.434357"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "kdTree::PopulateMFCCTree(double **mfccs, int num_coef, long num_frames)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/FFT Chain/kdTree.cpp"
+         timestampString = "385244275.838578"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "76"
+         endingLineNumber = "76"
+         landmarkName = "kdTree::FindClosestCentroid(double *mfcc)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386782198.756774"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
+         landmarkName = "FeatureExtraction::Setup(const int s_fft_size,const int s_hop_ovrlp,const int n_mel_bands,const int sample_rate,const double min_freq,const double max_freq)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386856915.849391"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "FeatureExtraction::Setup(const int s_fft_size,const int s_hop_ovrlp,const int n_mel_bands,const int sample_rate,const double min_freq,const double max_freq)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386856915.849391"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "43"
+         endingLineNumber = "43"
+         landmarkName = "FeatureExtraction::Setup(const int s_fft_size,const int s_hop_ovrlp,const int n_mel_bands,const int sample_rate,const double min_freq,const double max_freq)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386856915.849391"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "FeatureExtraction::Setup(const int s_fft_size,const int s_hop_ovrlp,const int n_mel_bands,const int sample_rate,const double min_freq,const double max_freq)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386856915.849391"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
+         landmarkName = "FeatureExtraction::Setup(const int s_fft_size,const int s_hop_ovrlp,const int n_mel_bands,const int sample_rate,const double min_freq,const double max_freq)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/FeatureExtraction.cpp"
+         timestampString = "386857239.78827"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "60"
+         endingLineNumber = "60">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/MarkovPlayer.cpp"
+         timestampString = "387223418.181352"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "134"
+         endingLineNumber = "134"
+         landmarkName = "MarkovPlayer::InverseFFTW()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FFT Chain/Simulsig/Database.h"
+         timestampString = "387223485.33243"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "13"
+         endingLineNumber = "13">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>

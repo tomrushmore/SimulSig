@@ -1,0 +1,55 @@
+setwd("/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/FFTs")
+#setwd("/Users/TomRushmore/Final Project/FFTs")
+
+library(lattice)
+
+buildmatrix <- function(x){
+   cmpl <- scan("exampletwaz.txt")
+  real <- cmpl[seq(1,length(cmpl),2)]
+   abs  <- abs(real)
+  absmat<- matrix(abs,x,byrow=TRUE)
+   spectro(absmat)
+   return(absmat)
+ }
+
+
+spectro <- function(x){
+
+   col.1 <- colorRampPalette(c('black','orange'))(300) 
+   levelplot(x,aspect="fill",col.regions=col.1)
+ }
+
+spectrolog <- function(x){
+ v
+}
+
+buildplot <- function(x){
+   res <- buildmatrix(x)
+   spectro(res)
+ }
+ 
+buildmatrixmag <- function(x){
+   mag <- scan("exampletwaz.txt")
+   magmat <- matrix(mag,x,byrow=TRUE)
+   return(magmat)
+ }
+
+
+# t <- scan("signal_0.txt")
+# wob <- Wave(t,samp.rate=44100,bit=16)
+# wobn<- normalize(wob,unit="16")
+# writeWave(wobn,paf)
+
+
+# a <- scan("0.txt")
+# b <- scan("1.txt")
+# c <- scan("2.txt")
+# d <- scan("3.txt")
+# e <- scan("4.txt")
+# f <- scan("5.txt")
+# g <- scan("6.txt")
+# h <- scan("7.txt")
+# j <- scan("8.txt")
+# k <- scan("9.txt")
+
+# ts.plot(cbind(a,b,c,d,e,f,g,h,j,k))

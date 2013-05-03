@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929F234F17034FF000F3CFD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F234E17034FF000F3CFD0 /* main.cpp */; };
+		929F2377170350CC00F3CFD0 /* FeatureExtraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23521703502900F3CFD0 /* FeatureExtraction.cpp */; };
+		929F2378170350D200F3CFD0 /* FFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23541703502900F3CFD0 /* FFT.cpp */; };
+		929F2379170350D400F3CFD0 /* HammingWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23561703502900F3CFD0 /* HammingWindow.cpp */; };
+		929F237A170350D800F3CFD0 /* MFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23581703502900F3CFD0 /* MFCC.cpp */; };
+		929F237B170350DA00F3CFD0 /* AudioFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F235A1703504700F3CFD0 /* AudioFileReader.cpp */; };
+		929F237C170350DF00F3CFD0 /* DatabaseProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F235C1703504800F3CFD0 /* DatabaseProcessor.cpp */; };
+		929F237D170350E200F3CFD0 /* DBWrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F235E1703504800F3CFD0 /* DBWrite.cpp */; };
+		929F237E170350E600F3CFD0 /* FileWriteR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23611703504800F3CFD0 /* FileWriteR.cpp */; };
+		929F237F170350EB00F3CFD0 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23631703508100F3CFD0 /* Database.cpp */; };
+		929F2380170350EE00F3CFD0 /* FeatureStateAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23651703508200F3CFD0 /* FeatureStateAnalysis.cpp */; };
+		929F2381170350F100F3CFD0 /* kdTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23671703508200F3CFD0 /* kdTree.cpp */; };
+		929F2382170350F400F3CFD0 /* kMeansClustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F236A1703508200F3CFD0 /* kMeansClustering.cpp */; };
+		929F2384170350FA00F3CFD0 /* MDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F236E1703508300F3CFD0 /* MDS.cpp */; };
+		929F2385170350FD00F3CFD0 /* StateMFCCs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23701703508300F3CFD0 /* StateMFCCs.cpp */; };
+		929F23861703510100F3CFD0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929F23721703509F00F3CFD0 /* Player.cpp */; };
+		D178C2D6170B5DF6002766F0 /* MarkovPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D178C2D4170B5DF6002766F0 /* MarkovPlayer.cpp */; };
+		D1E6486016C984DA00A47C37 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E6485F16C984DA00A47C37 /* Accelerate.framework */; };
+		D1E6486416C9865400A47C37 /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E6486316C9865400A47C37 /* libsndfile.a */; };
+		D1FD9C8A170398FF00FD247B /* MarkovChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FD9C88170398FF00FD247B /* MarkovChain.cpp */; };
+		D1FD9C8D170399D100FD247B /* MarkovMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FD9C8B170399D100FD247B /* MarkovMaster.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1E6484D16C97EE100A47C37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		929F234E17034FF000F3CFD0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Simulsig/main.cpp; sourceTree = SOURCE_ROOT; };
+		929F235017034FFA00F3CFD0 /* PrintfDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrintfDebug.h; path = Simulsig/PrintfDebug.h; sourceTree = SOURCE_ROOT; };
+		929F235117034FFA00F3CFD0 /* SetupMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SetupMacros.h; path = Simulsig/SetupMacros.h; sourceTree = SOURCE_ROOT; };
+		929F23521703502900F3CFD0 /* FeatureExtraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureExtraction.cpp; path = Simulsig/FeatureExtraction.cpp; sourceTree = SOURCE_ROOT; };
+		929F23531703502900F3CFD0 /* FeatureExtraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FeatureExtraction.h; path = Simulsig/FeatureExtraction.h; sourceTree = SOURCE_ROOT; };
+		929F23541703502900F3CFD0 /* FFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FFT.cpp; path = Simulsig/FFT.cpp; sourceTree = SOURCE_ROOT; };
+		929F23551703502900F3CFD0 /* FFT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FFT.h; path = Simulsig/FFT.h; sourceTree = SOURCE_ROOT; };
+		929F23561703502900F3CFD0 /* HammingWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HammingWindow.cpp; path = Simulsig/HammingWindow.cpp; sourceTree = SOURCE_ROOT; };
+		929F23571703502900F3CFD0 /* HammingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HammingWindow.h; path = Simulsig/HammingWindow.h; sourceTree = SOURCE_ROOT; };
+		929F23581703502900F3CFD0 /* MFCC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MFCC.cpp; path = Simulsig/MFCC.cpp; sourceTree = SOURCE_ROOT; };
+		929F23591703502A00F3CFD0 /* MFCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MFCC.h; path = Simulsig/MFCC.h; sourceTree = SOURCE_ROOT; };
+		929F235A1703504700F3CFD0 /* AudioFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AudioFileReader.cpp; path = Simulsig/AudioFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		929F235B1703504700F3CFD0 /* AudioFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioFileReader.h; path = Simulsig/AudioFileReader.h; sourceTree = SOURCE_ROOT; };
+		929F235C1703504800F3CFD0 /* DatabaseProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DatabaseProcessor.cpp; path = Simulsig/DatabaseProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		929F235D1703504800F3CFD0 /* DatabaseProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DatabaseProcessor.h; path = Simulsig/DatabaseProcessor.h; sourceTree = SOURCE_ROOT; };
+		929F235E1703504800F3CFD0 /* DBWrite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DBWrite.cpp; path = Simulsig/DBWrite.cpp; sourceTree = SOURCE_ROOT; };
+		929F235F1703504800F3CFD0 /* DBWrite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DBWrite.h; path = Simulsig/DBWrite.h; sourceTree = SOURCE_ROOT; };
+		929F23611703504800F3CFD0 /* FileWriteR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FileWriteR.cpp; path = Simulsig/FileWriteR.cpp; sourceTree = SOURCE_ROOT; };
+		929F23621703504800F3CFD0 /* FileWriteR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileWriteR.h; path = Simulsig/FileWriteR.h; sourceTree = SOURCE_ROOT; };
+		929F23631703508100F3CFD0 /* Database.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Database.cpp; path = Simulsig/Database.cpp; sourceTree = SOURCE_ROOT; };
+		929F23641703508100F3CFD0 /* Database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Simulsig/Database.h; sourceTree = SOURCE_ROOT; };
+		929F23651703508200F3CFD0 /* FeatureStateAnalysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureStateAnalysis.cpp; path = Simulsig/FeatureStateAnalysis.cpp; sourceTree = SOURCE_ROOT; };
+		929F23661703508200F3CFD0 /* FeatureStateAnalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FeatureStateAnalysis.h; path = Simulsig/FeatureStateAnalysis.h; sourceTree = SOURCE_ROOT; };
+		929F23671703508200F3CFD0 /* kdTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = kdTree.cpp; path = Simulsig/kdTree.cpp; sourceTree = SOURCE_ROOT; };
+		929F23681703508200F3CFD0 /* kdTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kdTree.h; path = Simulsig/kdTree.h; sourceTree = SOURCE_ROOT; };
+		929F23691703508200F3CFD0 /* kdTreeStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kdTreeStruct.h; path = Simulsig/kdTreeStruct.h; sourceTree = SOURCE_ROOT; };
+		929F236A1703508200F3CFD0 /* kMeansClustering.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = kMeansClustering.cpp; path = Simulsig/kMeansClustering.cpp; sourceTree = SOURCE_ROOT; };
+		929F236B1703508300F3CFD0 /* kMeansClustering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kMeansClustering.h; path = Simulsig/kMeansClustering.h; sourceTree = SOURCE_ROOT; };
+		929F236E1703508300F3CFD0 /* MDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MDS.cpp; path = Simulsig/MDS.cpp; sourceTree = SOURCE_ROOT; };
+		929F236F1703508300F3CFD0 /* MDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDS.h; path = Simulsig/MDS.h; sourceTree = SOURCE_ROOT; };
+		929F23701703508300F3CFD0 /* StateMFCCs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StateMFCCs.cpp; path = Simulsig/StateMFCCs.cpp; sourceTree = SOURCE_ROOT; };
+		929F23711703508300F3CFD0 /* StateMFCCs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StateMFCCs.h; path = Simulsig/StateMFCCs.h; sourceTree = SOURCE_ROOT; };
+		929F23721703509F00F3CFD0 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = Simulsig/Player.cpp; sourceTree = SOURCE_ROOT; };
+		929F23731703509F00F3CFD0 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Simulsig/Player.h; sourceTree = SOURCE_ROOT; };
+		929F2374170350B500F3CFD0 /* FFT_Chain.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = FFT_Chain.1; path = Simulsig/FFT_Chain.1; sourceTree = SOURCE_ROOT; };
+		929F2376170350B500F3CFD0 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; name = TODO; path = Simulsig/TODO; sourceTree = SOURCE_ROOT; };
+		D178C2D4170B5DF6002766F0 /* MarkovPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarkovPlayer.cpp; path = Simulsig/MarkovPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		D178C2D5170B5DF6002766F0 /* MarkovPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkovPlayer.h; path = Simulsig/MarkovPlayer.h; sourceTree = SOURCE_ROOT; };
+		D1A6197C170FA8470008FBF4 /* GlobalTypedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalTypedefs.h; path = Simulsig/GlobalTypedefs.h; sourceTree = SOURCE_ROOT; };
+		D1E6484F16C97EE100A47C37 /* Simulsig */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulsig; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E6485F16C984DA00A47C37 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D1E6486316C9865400A47C37 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsndfile.a; path = ../../../../../../../../../opt/local/lib/libsndfile.a; sourceTree = "<group>"; };
+		D1FD9C88170398FF00FD247B /* MarkovChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarkovChain.cpp; path = Simulsig/MarkovChain.cpp; sourceTree = SOURCE_ROOT; };
+		D1FD9C89170398FF00FD247B /* MarkovChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkovChain.h; path = Simulsig/MarkovChain.h; sourceTree = SOURCE_ROOT; };
+		D1FD9C8B170399D100FD247B /* MarkovMaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarkovMaster.cpp; path = Simulsig/MarkovMaster.cpp; sourceTree = SOURCE_ROOT; };
+		D1FD9C8C170399D100FD247B /* MarkovMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkovMaster.h; path = Simulsig/MarkovMaster.h; sourceTree = SOURCE_ROOT; };
+		D1FD9C8E17039A4600FD247B /* MainIncludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainIncludes.h; path = Simulsig/MainIncludes.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E6484C16C97EE100A47C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E6486416C9865400A47C37 /* libsndfile.a in Frameworks */,
+				D1E6486016C984DA00A47C37 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929F234B17034EA400F3CFD0 /* Backup / ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				929F2374170350B500F3CFD0 /* FFT_Chain.1 */,
+				929F2376170350B500F3CFD0 /* TODO */,
+			);
+			name = "Backup / ToDo";
+			path = "FFT Chain";
+			sourceTree = "<group>";
+		};
+		929F234C17034EC300F3CFD0 /* Main / Setup.h */ = {
+			isa = PBXGroup;
+			children = (
+				929F234E17034FF000F3CFD0 /* main.cpp */,
+				929F235117034FFA00F3CFD0 /* SetupMacros.h */,
+				D1FD9C8E17039A4600FD247B /* MainIncludes.h */,
+				929F235017034FFA00F3CFD0 /* PrintfDebug.h */,
+				D1A6197C170FA8470008FBF4 /* GlobalTypedefs.h */,
+			);
+			name = "Main / Setup.h";
+			sourceTree = "<group>";
+		};
+		929F234D17034F0000F3CFD0 /* Markov Chain Phase */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD9C8B170399D100FD247B /* MarkovMaster.cpp */,
+				D1FD9C8C170399D100FD247B /* MarkovMaster.h */,
+				D1FD9C88170398FF00FD247B /* MarkovChain.cpp */,
+				D1FD9C89170398FF00FD247B /* MarkovChain.h */,
+				D178C2D4170B5DF6002766F0 /* MarkovPlayer.cpp */,
+				D178C2D5170B5DF6002766F0 /* MarkovPlayer.h */,
+			);
+			name = "Markov Chain Phase";
+			sourceTree = "<group>";
+		};
+		D1216D9D16DFA4C500E75934 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				929F235A1703504700F3CFD0 /* AudioFileReader.cpp */,
+				929F235B1703504700F3CFD0 /* AudioFileReader.h */,
+				929F235C1703504800F3CFD0 /* DatabaseProcessor.cpp */,
+				929F235D1703504800F3CFD0 /* DatabaseProcessor.h */,
+				929F235E1703504800F3CFD0 /* DBWrite.cpp */,
+				929F235F1703504800F3CFD0 /* DBWrite.h */,
+				929F23611703504800F3CFD0 /* FileWriteR.cpp */,
+				929F23621703504800F3CFD0 /* FileWriteR.h */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		D1216D9E16DFA4CE00E75934 /* DB Analysis Phase */ = {
+			isa = PBXGroup;
+			children = (
+				D1A2F00D16EBCD8C003E2312 /* Features */,
+				D1216D9D16DFA4C500E75934 /* IO */,
+			);
+			name = "DB Analysis Phase";
+			sourceTree = "<group>";
+		};
+		D1A2F00916EBCCD3003E2312 /* DB Reduction Phase */ = {
+			isa = PBXGroup;
+			children = (
+				929F23651703508200F3CFD0 /* FeatureStateAnalysis.cpp */,
+				929F23661703508200F3CFD0 /* FeatureStateAnalysis.h */,
+				929F23631703508100F3CFD0 /* Database.cpp */,
+				929F23641703508100F3CFD0 /* Database.h */,
+				929F23701703508300F3CFD0 /* StateMFCCs.cpp */,
+				929F23711703508300F3CFD0 /* StateMFCCs.h */,
+				929F23671703508200F3CFD0 /* kdTree.cpp */,
+				929F23681703508200F3CFD0 /* kdTree.h */,
+				929F23691703508200F3CFD0 /* kdTreeStruct.h */,
+				929F236A1703508200F3CFD0 /* kMeansClustering.cpp */,
+				929F236B1703508300F3CFD0 /* kMeansClustering.h */,
+				929F236E1703508300F3CFD0 /* MDS.cpp */,
+				929F236F1703508300F3CFD0 /* MDS.h */,
+			);
+			name = "DB Reduction Phase";
+			sourceTree = "<group>";
+		};
+		D1A2F00D16EBCD8C003E2312 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				929F23521703502900F3CFD0 /* FeatureExtraction.cpp */,
+				929F23531703502900F3CFD0 /* FeatureExtraction.h */,
+				929F23541703502900F3CFD0 /* FFT.cpp */,
+				929F23551703502900F3CFD0 /* FFT.h */,
+				929F23561703502900F3CFD0 /* HammingWindow.cpp */,
+				929F23571703502900F3CFD0 /* HammingWindow.h */,
+				929F23581703502900F3CFD0 /* MFCC.cpp */,
+				929F23591703502A00F3CFD0 /* MFCC.h */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		D1A328A116EFA56F001481BF /* ConcatPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				929F23721703509F00F3CFD0 /* Player.cpp */,
+				929F23731703509F00F3CFD0 /* Player.h */,
+			);
+			name = ConcatPlayer;
+			sourceTree = "<group>";
+		};
+		D1E6484616C97EE100A47C37 = {
+			isa = PBXGroup;
+			children = (
+				D1E6486316C9865400A47C37 /* libsndfile.a */,
+				D1E6485F16C984DA00A47C37 /* Accelerate.framework */,
+				D1E6485116C97EE100A47C37 /* Simulsig */,
+				929F234B17034EA400F3CFD0 /* Backup / ToDo */,
+				D1E6485016C97EE100A47C37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E6485016C97EE100A47C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6484F16C97EE100A47C37 /* Simulsig */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E6485116C97EE100A47C37 /* Simulsig */ = {
+			isa = PBXGroup;
+			children = (
+				929F234C17034EC300F3CFD0 /* Main / Setup.h */,
+				D1216D9E16DFA4CE00E75934 /* DB Analysis Phase */,
+				D1A2F00916EBCCD3003E2312 /* DB Reduction Phase */,
+				D1A328A116EFA56F001481BF /* ConcatPlayer */,
+				929F234D17034F0000F3CFD0 /* Markov Chain Phase */,
+			);
+			name = Simulsig;
+			path = "FFT Chain";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E6484E16C97EE100A47C37 /* Simulsig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E6485816C97EE100A47C37 /* Build configuration list for PBXNativeTarget "Simulsig" */;
+			buildPhases = (
+				D1E6484B16C97EE100A47C37 /* Sources */,
+				D1E6484C16C97EE100A47C37 /* Frameworks */,
+				D1E6484D16C97EE100A47C37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simulsig;
+			productName = "FFT Chain";
+			productReference = D1E6484F16C97EE100A47C37 /* Simulsig */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E6484716C97EE100A47C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Rushmore";
+			};
+			buildConfigurationList = D1E6484A16C97EE100A47C37 /* Build configuration list for PBXProject "Simulsig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1E6484616C97EE100A47C37;
+			productRefGroup = D1E6485016C97EE100A47C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E6484E16C97EE100A47C37 /* Simulsig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E6484B16C97EE100A47C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929F234F17034FF000F3CFD0 /* main.cpp in Sources */,
+				929F2377170350CC00F3CFD0 /* FeatureExtraction.cpp in Sources */,
+				929F2378170350D200F3CFD0 /* FFT.cpp in Sources */,
+				929F2379170350D400F3CFD0 /* HammingWindow.cpp in Sources */,
+				929F237A170350D800F3CFD0 /* MFCC.cpp in Sources */,
+				929F237B170350DA00F3CFD0 /* AudioFileReader.cpp in Sources */,
+				929F237C170350DF00F3CFD0 /* DatabaseProcessor.cpp in Sources */,
+				929F237D170350E200F3CFD0 /* DBWrite.cpp in Sources */,
+				929F237E170350E600F3CFD0 /* FileWriteR.cpp in Sources */,
+				929F237F170350EB00F3CFD0 /* Database.cpp in Sources */,
+				929F2380170350EE00F3CFD0 /* FeatureStateAnalysis.cpp in Sources */,
+				929F2381170350F100F3CFD0 /* kdTree.cpp in Sources */,
+				929F2382170350F400F3CFD0 /* kMeansClustering.cpp in Sources */,
+				929F2384170350FA00F3CFD0 /* MDS.cpp in Sources */,
+				929F2385170350FD00F3CFD0 /* StateMFCCs.cpp in Sources */,
+				929F23861703510100F3CFD0 /* Player.cpp in Sources */,
+				D1FD9C8A170398FF00FD247B /* MarkovChain.cpp in Sources */,
+				D1FD9C8D170399D100FD247B /* MarkovMaster.cpp in Sources */,
+				D178C2D6170B5DF6002766F0 /* MarkovPlayer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1E6485616C97EE100A47C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1E6485716C97EE100A47C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1E6485916C97EE100A47C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+					"\"/Developer/SDKs/nanoflann-1.1.4/include\"",
+					/Developer/SDKs/tnt_126,
+					/Developer/SDKs/tnt_126,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/include,
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = "-lfftw3";
+				PRODUCT_NAME = Simulsig;
+			};
+			name = Debug;
+		};
+		D1E6485A16C97EE100A47C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+					"\"/Developer/SDKs/nanoflann-1.1.4/include\"",
+					/Developer/SDKs/tnt_126,
+					/Developer/SDKs/tnt_126,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/include,
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = "-lfftw3";
+				PRODUCT_NAME = Simulsig;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E6484A16C97EE100A47C37 /* Build configuration list for PBXProject "Simulsig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E6485616C97EE100A47C37 /* Debug */,
+				D1E6485716C97EE100A47C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E6485816C97EE100A47C37 /* Build configuration list for PBXNativeTarget "Simulsig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E6485916C97EE100A47C37 /* Debug */,
+				D1E6485A16C97EE100A47C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1E6484716C97EE100A47C37 /* Project object */;
+}
