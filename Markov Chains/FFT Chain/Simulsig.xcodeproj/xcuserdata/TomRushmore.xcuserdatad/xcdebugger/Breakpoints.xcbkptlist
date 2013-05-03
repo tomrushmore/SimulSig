@@ -16,5 +16,16 @@
          landmarkName = "MarkovChain::~MarkovChain()"
          landmarkType = "5">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Simulsig/AudioFileReader.cpp"
+         timestampString = "389281866.453179"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "3"
+         endingLineNumber = "3">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
