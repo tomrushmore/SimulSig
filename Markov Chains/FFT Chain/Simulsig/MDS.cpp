@@ -52,7 +52,6 @@ void MDS::MakeProximitySquaredMatrix()
     for(int i = 0 ; i < matrix_dimen; i++){
         for(int j = 0 ; j < matrix_dimen; j++){
             proxim_matrix[i][j] = pow(EuclidDistance(input_matrix[i], input_matrix[j]),2);
-            
         }
     }
     debug_print(("Proximity Matrix\n"));
