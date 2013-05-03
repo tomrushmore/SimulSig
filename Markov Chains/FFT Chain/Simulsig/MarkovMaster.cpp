@@ -53,7 +53,7 @@ void MarkovMaster::Train()
 
 void MarkovMaster::PlayChain()
 {  
-    mkv_pl.Setup(&mkv_ch,state_mfccs.GetFFTMatrix(),NUMMKVGEN,max_h_len,state_mfccs.GetNumMFCCCoef(),state_mfccs.GetNumActiveClusters(),state_mfccs.GetFFTLength(),state_mfccs.GetGrouping(),state_mfccs.GetHopOverlap());
+    mkv_pl.Setup(&mkv_ch,state_mfccs.GetFFTMatrix(),NUMMKVGEN,max_h_len,state_mfccs.GetNumMFCCCoef(),state_mfccs.GetNumActiveClusters(),state_mfccs.GetFFTLength(),state_mfccs.GetGrouping(),state_mfccs.GetHopOverlap(),state_mfccs.GetFFTLength());
     mkv_pl.GenerateSampleBuffers();
     mkv_pl.GenerateChainSequences(NHOMOG);
     mkv_pl.GenerateSignals();

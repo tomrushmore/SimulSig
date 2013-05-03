@@ -17,7 +17,6 @@
 #include "fftw3.h"
 #include <sndfile.hh>
 
-#define RAMP 1
 
 enum MKVTYPE{
     HOMOG = 0,
@@ -28,7 +27,7 @@ class MarkovPlayer{
 public:
     MarkovPlayer();
     ~MarkovPlayer();
-    void Setup(MarkovChain* s_mkv_ch,double** s_fft_matrix,int s_n_sequences,int s_max_track_length,int s_n_coef,int s_n_active_clusters,int s_fft_length,int s_grouping,int s_hop_overlap);
+    void Setup(MarkovChain* s_mkv_ch,double** s_fft_matrix,int s_n_sequences,int s_max_track_length,int s_n_coef,int s_n_active_clusters,int s_fft_length,int s_grouping,int s_hop_overlap,int s_ramp);
     void GenerateChainSequences(const MKVTYPE type);
     void GenerateSampleBuffers();
     void GenerateSignals();
@@ -68,7 +67,7 @@ private:
     std::vector<std::vector<double>> final_signals;
     std::vector<std::vector<double>> abs_signal;
     std::vector<double> cur_track;
-    
+    int ramp;
 
 };
 

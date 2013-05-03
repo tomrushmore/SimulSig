@@ -19,7 +19,7 @@ MarkovPlayer::~MarkovPlayer()
     
 }
 
-void MarkovPlayer::Setup(MarkovChain* s_mkv_ch,double** s_fft_matrix,int s_n_sequences,int s_max_track_length,int s_n_coef,int s_n_active_clusters,int s_fft_length,int s_grouping,int s_hop_overlap)
+void MarkovPlayer::Setup(MarkovChain* s_mkv_ch,double** s_fft_matrix,int s_n_sequences,int s_max_track_length,int s_n_coef,int s_n_active_clusters,int s_fft_length,int s_grouping,int s_hop_overlap,int s_ramp)
 {
     mkv_ch = s_mkv_ch;
     n_sequences = s_n_sequences;
@@ -33,7 +33,8 @@ void MarkovPlayer::Setup(MarkovChain* s_mkv_ch,double** s_fft_matrix,int s_n_seq
     grouping = s_grouping;
     hop_overlap = s_hop_overlap;
     rem_frames = int((22050)) % fft_length_m2;
-    forward_ramp = (double*)malloc(sizeof(double)*RAMP);
+    ramp = int((s_ramp-2)/4);
+    forward_ramp = (double*)malloc(sizeof(double)*ramp);
 }
 
 void MarkovPlayer::GenerateSampleBuffers()
@@ -157,8 +158,8 @@ void MarkovPlayer::GenerateSignals()
             int seq_idx = chain_plays[i][j];
             if(!j){
                 for(int q = 0; q < signal_length; q++){
-                    if(q > signal_length - RAMP){
-                        newsig.push_back(final_signals[seq_idx][q] * forward_ramp[RAMP-1-ramp_offset]);
+                    if(q > signal_length - ramp){
+                        newsig.push_back(final_signals[seq_idx][q] * forward_ramp[ramp-1-ramp_offset]);
                         ramp_offset++;
                     } else {
                         newsig.push_back(final_signals[seq_idx][q]);
@@ -169,11 +170,11 @@ void MarkovPlayer::GenerateSignals()
                 ramp_offset = 0;
             } else {
                 for(int q = 0; q < signal_length; q++){
-                    if(q < RAMP){
-                        newsig[write_offset-RAMP+q] += final_signals[seq_idx][q] * forward_ramp[q];
+                    if(q < ramp){
+                        newsig[write_offset-ramp+q] += final_signals[seq_idx][q] * forward_ramp[q];
                     } else {
-                        if(q > signal_length - RAMP){
-                            newsig.push_back(final_signals[seq_idx][q] * forward_ramp[RAMP-1-ramp_offset]);
+                        if(q > signal_length - ramp){
+                            newsig.push_back(final_signals[seq_idx][q] * forward_ramp[ramp-1-ramp_offset]);
                             ramp_offset++;
                         } else {
                             newsig.push_back(final_signals[seq_idx][q]);
@@ -212,8 +213,8 @@ void MarkovPlayer::WriteFinalSignals()
 
 void MarkovPlayer::BuildRamp()
 {
-    double ramp_offval = 1.0 / RAMP;
-    for(int i = 0 ; i < RAMP; i++){
+    double ramp_offval = 1.0 / ramp;
+    for(int i = 0 ; i < ramp; i++){
         forward_ramp[i] = i * ramp_offval;
     }
 }
