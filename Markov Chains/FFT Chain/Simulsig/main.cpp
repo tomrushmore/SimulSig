@@ -8,7 +8,7 @@
 
 #include "MainIncludes.h"
 
-#define APPLYMDS false
+#define APPLYMDS true
 
 enum PhaseSelect{
     Extract = 0,
@@ -22,7 +22,7 @@ enum PhaseSelect{
 
 int main(int argc, const char * argv[])
 {
-    PhaseSelect Phase = AllPhase;
+    PhaseSelect Phase = ExCl;
 
     // Extract and write the features from the corpus to file.
     if(Phase == Extract || Phase == ExCl || Phase == AllPhase){
@@ -42,7 +42,7 @@ int main(int argc, const char * argv[])
         if(APPLYMDS){
             MDS ms;
             ms.SetInputMatrix(cluster.GetGroupedMFCCMat(), cluster.GetGroupedMFCCDimen(),cluster.GetGroupedMFCCSize());
-            ms.ApplyMDS(3);
+            ms.ApplyMDS(250);
         }
     }
     

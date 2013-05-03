@@ -173,6 +173,10 @@ void MDS::ApplyMDS(int n_reduced_dim)
 
     dgeev_(&jobl, &job, &no, work_matrix, &lda, wr, wi, v1, &ldvl, vr, &ldvr, dummy, &lwork, &info);
     
+    
+    // Modification of the following source code until *---*
+    // http://software.intel.com/sites/products/documentation/doclib/mkl_sa/11/mkl_lapack_examples/lapacke_dgeev_col.c.htm
+
     if (info>=0)
     {
         debug_print(("\e-vals = "));
@@ -192,7 +196,7 @@ void MDS::ApplyMDS(int n_reduced_dim)
         std::vector<Eigenvector> evectors;
         evectors.resize(matrix_dimen);
         
-        int j;
+              int j;
         for(int i = 0; i < matrix_dimen; i++ ) {
             j = 0;
             while( j < matrix_dimen ) {
@@ -211,6 +215,7 @@ void MDS::ApplyMDS(int n_reduced_dim)
             }
             debug_print(("\n"));
         }
+    /*------------------------------------------------*/
         for(int i = 0 ; i < evectors[0].vec.size(); i++){
             debug_print(("e-vecs %d : [ ",i));
             for(int j = 0; j < evectors[0].vec.size(); j++){
@@ -295,7 +300,7 @@ void MDS::ApplyMDS(int n_reduced_dim)
         free (wi);
         free (v1);
         free (vr);
-        free (dummy);
+        //free (dummy);
         free(work_matrix);
     }
 }
