@@ -47,7 +47,7 @@ MarkovChain::~MarkovChain()
     }
 }
 
-
+// Initialise Markov chain states with the clustered MFCC groups
 void MarkovChain::SetStates(int set_number_states, double **mfcc_states, int s_num_mfcc_coef)
 {
     debug_print(("\nSetting markov chain states...\n"));
@@ -71,11 +71,11 @@ void MarkovChain::StdBuildChainMatrix()
 {
     depth = 1;
     pd = 0;
+    // Originally a 3D array as was previously non-homog markov chain
+    // due to misunderstanding
     matrix = new TNT::Array3D<double>(1,number_states,number_states,0.0);
     train_matrix = new TNT::Array2D<int>(number_states,number_states,1);
 }
-
-
 
 void MarkovChain::BuildChainMatrix(int set_depth)
 {
@@ -87,7 +87,7 @@ void MarkovChain::BuildChainMatrix(int set_depth)
 
 void MarkovChain::stepTrain(double *mfc_step1, double *mfc_step2)
 {
-    // find distance between 1 and state vec
+    // find distance between training input feature and state vec
     closest_dist_one = EuclidDistance(mfc_step1, (*mfcc_vectors)[0]);
     closest_state_one = 0;
     tmp_dist_one = 0;
@@ -95,7 +95,7 @@ void MarkovChain::stepTrain(double *mfc_step1, double *mfc_step2)
     closest_dist_two = EuclidDistance(mfc_step2, (*mfcc_vectors)[0]);
     closest_state_two = 0;
     tmp_dist_two = 0;
-
+    // find the closest
     for(int i = 1 ; i < number_states; i++){
         tmp_dist_one = EuclidDistance(mfc_step1, (*mfcc_vectors)[i]);
         if(tmp_dist_one < closest_dist_one){
@@ -108,7 +108,6 @@ void MarkovChain::stepTrain(double *mfc_step1, double *mfc_step2)
             closest_state_two = i;
         }
     }    
-    // this is wrong
     pi = closest_state_one;
     int ran = (rand()/(double)RAND_MAX) * 53;
     pi = ran;
@@ -159,13 +158,14 @@ void MarkovChain::SetFirstState(int state)
 
 void MarkovChain::StdstepTrain(double *mfc_step1, double *mfc_step2)
 {
+    // find distance between training input feature and state vec
     closest_dist_one = EuclidDistance(mfc_step1, (*mfcc_vectors)[0]);
     closest_state_one = 0;
     tmp_dist_one = 0;
     closest_dist_two = EuclidDistance(mfc_step2, (*mfcc_vectors)[0]);
     closest_state_two = 0;
     tmp_dist_two = 0;
-    
+    // find closest state to input feature
     for(int i = 1 ; i < number_states; i++){
         tmp_dist_one = EuclidDistance(mfc_step1, (*mfcc_vectors)[i]);
         if(tmp_dist_one < closest_dist_one){
@@ -197,6 +197,7 @@ void MarkovChain::StdstepTrain(double *mfc_step1, double *mfc_step2)
 
 int MarkovChain::stdletsplay()
 {
+    // if first play, determine the starting state
     if(!first_learnt){
         std::pair<int, double> *pair_array = new std::pair<int, double>[number_states];       
         for(int i = 0 ; i < number_states; i++){

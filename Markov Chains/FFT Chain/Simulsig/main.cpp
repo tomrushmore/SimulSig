@@ -8,7 +8,7 @@
 
 #include "MainIncludes.h"
 
-#define APPLYMDS true
+#define APPLYMDS false
 
 enum PhaseSelect{
     Extract = 0,
@@ -39,10 +39,11 @@ int main(int argc, const char * argv[])
         cluster.KdTreeCluster(NUMCLUSTERS, MAXCLUSTITERATIONS);
         diff = (std::clock()-start)/(double)CLOCKS_PER_SEC;
         printf("Clustering Time  : %f seconds\n",diff);
+        // MDS struggles with large matrices.
         if(APPLYMDS){
             MDS ms;
             ms.SetInputMatrix(cluster.GetGroupedMFCCMat(), cluster.GetGroupedMFCCDimen(),cluster.GetGroupedMFCCSize());
-            ms.ApplyMDS(250);
+            ms.ApplyMDS(3);
         }
     }
     
