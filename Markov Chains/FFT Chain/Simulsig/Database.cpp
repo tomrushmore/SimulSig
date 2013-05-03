@@ -129,7 +129,7 @@ int Database::ReadFile(int file_num)
     debug_print(("Total num frames in database : %ld\n\n",database_frame_num));
     printf("*--------------------------------------------*\n");
 
-    gr_size = database_frame_num;
+    gr_size = (int)database_frame_num;
     gr_coef = mfcc_num_coef;
     gr_fft = fft_frame_length;
     return 0;
@@ -178,7 +178,7 @@ int Database::ReadFileGroup(int file_num,int s_grouping,int type)
     
     grouped_size = (long)floor(database_frame_num/grouping);
     int grouped_coef = mfcc_num_coef * grouping;    
-    gr_size = grouped_size;
+    gr_size = (int)grouped_size;
     gr_coef = grouped_coef;
 
     mfcc_matrix = (double**)malloc(sizeof(double*)*grouped_size);
@@ -215,7 +215,7 @@ int Database::ReadFileGroup(int file_num,int s_grouping,int type)
     fftFile.close();
     printf("\tComplete\n");
     
-    gr_size = grouped_size;
+    gr_size = (int)grouped_size;
     gr_fft = fft_length_grouped;
     debug_print(("Reading track frame lengths..."));
     std::string track_frame_l_file(dir);
@@ -248,7 +248,7 @@ int Database::ReadFileGroup(int file_num,int s_grouping,int type)
     debug_print(("Number values p FFT frame    : %d\n",fft_frame_length));
     debug_print(("Total num frames in database : %ld\n",database_frame_num));
     debug_print(("Grouped MFCC num coefs       : %d\n",grouped_coef));
-    debug_print(("Num frames when grouped      : %d\n",grouped_size));
+    debug_print(("Num frames when grouped      : %ld\n",grouped_size));
     GroupTrackLengths();
     printf("*--------------------------------------------------*\n");
 
@@ -261,7 +261,7 @@ int Database::GetFFTLengthGrouped(){
 
 int Database::GetGroupedS()
 {
-    return grouped_size;
+    return (int)grouped_size;
 }
 
 void Database::SetFileDirectory(const char *dir)
