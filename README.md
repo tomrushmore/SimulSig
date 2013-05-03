@@ -25,11 +25,17 @@ dependencies. If you do not wish to see the multitude of console printouts, alte
 5. Tracks are written to /Products/Final Tracks
 
 Several macros determine the type out output produced, all of which are found in SetupMacros.h 
+
 NSAMP - Audio segment size
+
 FNMELBANDS - Number of mel-filterbanks used during extraction. this increases the number of MFFCs
+
 MFCCGROUPING - Number of MFC frames grouped together
+
 MAXCLUSTITERATIONS - Maximum number of iterations of K-means algorithm. The larger the better.
+
 NUMCLUSTER - Maximum number of clusters. The majority of clusters do not have a unique centroid, so the number of active clusters will be significantly less than this.
+
 
 
 Texture-synthesis like results:
@@ -42,6 +48,7 @@ NSAMP - 22050
 FNMELBANDS - 14
 MFCCGROUPING - 6
 
+Dependencies
 ========
 FFTW3,
 libsndfile,
