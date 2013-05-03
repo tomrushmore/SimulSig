@@ -24,6 +24,7 @@ dependencies. If you do not wish to see the multitude of console printouts, alte
 
 5. Tracks are written to /Products/Final Tracks
 
+
 Several macros determine the type out output produced, all of which are found in SetupMacros.h 
 
 NSAMP - Audio segment size
