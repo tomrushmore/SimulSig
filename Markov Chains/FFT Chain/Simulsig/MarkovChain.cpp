@@ -371,6 +371,7 @@ void MarkovChain::PrintMatrix()
 
 void MarkovChain::MatrixPrinter()
 {
+    printf("Matrix Printa \n");
     for(int i = 0 ; i < depth ; i++)
     {
         for(int j = 0 ; j < number_states ; j++)
@@ -379,7 +380,7 @@ void MarkovChain::MatrixPrinter()
             {
              //   printf("%2.3f ",(*matrix)[i][j][l]);
 
-                writer.AddMarkov((*train_matrix)[j][l]);
+                writer.AddMarkov((*matrix)[i][j][l]);
             }
         }
     }

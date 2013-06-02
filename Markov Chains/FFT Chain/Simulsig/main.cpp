@@ -22,7 +22,7 @@ enum PhaseSelect{
 
 int main(int argc, const char * argv[])
 {
-    PhaseSelect Phase = ExCl;
+    PhaseSelect Phase = AllPhase;
 
     // Extract and write the features from the corpus to file.
     if(Phase == Extract || Phase == ExCl || Phase == AllPhase){

@@ -47,8 +47,8 @@ void MarkovMaster::Train()
         offset += group_length;
         mkv_ch.reset();
     }
-    //mkv_ch.MatrixPrinter();
-    //mkv_ch.PrintMatrix();
+    mkv_ch.MatrixPrinter();
+    mkv_ch.PrintMatrix();
 }
 
 void MarkovMaster::PlayChain()
