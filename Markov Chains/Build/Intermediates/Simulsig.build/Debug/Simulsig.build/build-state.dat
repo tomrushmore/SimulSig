@@ -1,837 +1,0 @@
-TSimulsig
-v5
-r1
-cCheck dependencies
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig" normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000503F1B7700000000000000AA
-t1346313079
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c000000005107054500000000000024F0
-t1359414597
-s9456
-
-N/Developer/SDKs/nanoflann-1.1.4/include/nanoflann.hpp
-c0000000050EFF821000000000000A149
-t1357903905
-s41289
-
-N/Developer/SDKs/tnt_126/tnt.h
-c00000000417003AA00000000000006D0
-t1097860010
-s1744
-
-N/Developer/SDKs/tnt_126/tnt_array1d.h
-c00000000510ABBF30000000000001315
-t1359657971
-s4885
-
-N/Developer/SDKs/tnt_126/tnt_array1d_utils.h
-c00000000417003AA0000000000000C0A
-t1097860010
-s3082
-
-N/Developer/SDKs/tnt_126/tnt_array2d.h
-c00000000429C61C60000000000001435
-t1117544902
-s5173
-
-N/Developer/SDKs/tnt_126/tnt_array2d_utils.h
-c00000000417003AA0000000000001205
-t1097860010
-s4613
-
-N/Developer/SDKs/tnt_126/tnt_array3d.h
-c00000000417003AA0000000000001459
-t1097860010
-s5209
-
-N/Developer/SDKs/tnt_126/tnt_array3d_utils.h
-c00000000417003AA0000000000000E9A
-t1097860010
-s3738
-
-N/Developer/SDKs/tnt_126/tnt_cmat.h
-c00000000417003AA0000000000002A05
-t1097860010
-s10757
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array1d.h
-c00000000510ABBF300000000000014CD
-t1359657971
-s5325
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array1d_utils.h
-c00000000417003AA0000000000000FAF
-t1097860010
-s4015
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array2d.h
-c00000000417003AA000000000000112B
-t1097860010
-s4395
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array2d_utils.h
-c00000000417003AA0000000000000FD2
-t1097860010
-s4050
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array3d.h
-c00000000417003AA0000000000001189
-t1097860010
-s4489
-
-N/Developer/SDKs/tnt_126/tnt_fortran_array3d_utils.h
-c00000000417003AA0000000000001244
-t1097860010
-s4676
-
-N/Developer/SDKs/tnt_126/tnt_i_refvec.h
-c00000000419A139E000000000000112C
-t1100616606
-s4396
-
-N/Developer/SDKs/tnt_126/tnt_math_utils.h
-c00000000417003AA00000000000001EE
-t1097860010
-s494
-
-N/Developer/SDKs/tnt_126/tnt_sparse_matrix_csr.h
-c00000000510ABB820000000000000B1B
-t1359657858
-s2843
-
-N/Developer/SDKs/tnt_126/tnt_stopwatch.h
-c00000000417003AA00000000000006C5
-t1097860010
-s1733
-
-N/Developer/SDKs/tnt_126/tnt_subscript.h
-c00000000417003AA0000000000000631
-t1097860010
-s1585
-
-N/Developer/SDKs/tnt_126/tnt_vec.h
-c00000000419A10860000000000001C07
-t1100615814
-s7175
-
-N/Developer/SDKs/tnt_126/tnt_version.h
-c00000000429C62E80000000000000412
-t1117545192
-s1042
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o
-t1367105678
-s55384
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o
-t1366814425
-s155088
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o
-t1367107720
-s182296
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o
-t1367105679
-s179676
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o
-t1366813464
-s13640
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o
-t1367105679
-s116840
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o
-t1367105679
-s251356
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o
-t1367107720
-s109784
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o
-t1365226696
-s6892
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.o
-t1365226697
-s3912
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o
-t1366813465
-s327040
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o
-t1367099791
-s82872
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o
-t1367105680
-s380260
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o
-t1367109365
-s191588
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o
-t1367109366
-s471004
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o
-t1367107720
-s266520
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Simulsig.LinkFileList
-c00000000516001620000000000000D89
-t1365246306
-s3465
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o
-t1367105680
-s186488
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o
-t1367105680
-s271200
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o
-t1367105679
-s349884
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o
-t1367109366
-s248636
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig
-t1367109366
-s1573488
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/../../../../../../../../../opt/local/lib/libsndfile.a
-c00000000502190EB0000000000092A58
-t1344377067
-s600664
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp
-c00000000517592F70000000000000E35
-t1366659831
-s3637
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.h
-c00000000517592F700000000000004B1
-t1366659831
-s1201
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp
-c000000005177EED80000000000000947
-t1366814424
-s2375
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.h
-c000000005161BA83000000000000061B
-t1365359235
-s1563
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp
-c00000000517C6887000000000000277E
-t1367107719
-s10110
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.h
-c00000000517C688700000000000005DF
-t1367107719
-s1503
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp
-c00000000517592F70000000000000835
-t1366659831
-s2101
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.h
-c00000000517592F70000000000000419
-t1366659831
-s1049
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp
-c00000000517592F70000000000000FF4
-t1366659831
-s4084
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.h
-c00000000515FA2CE000000000000051E
-t1365222094
-s1310
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp
-c000000005177EED800000000000022BE
-t1366814424
-s8894
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.h
-c00000000517592F70000000000000753
-t1366659831
-s1875
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp
-c00000000517592F700000000000019A7
-t1366659831
-s6567
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.h
-c000000005161BA8300000000000005F4
-t1365359235
-s1524
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/GlobalTypedefs.h
-c00000000515F763B00000000000001B8
-t1365210683
-s440
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp
-c00000000517592F7000000000000086D
-t1366659831
-s2157
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.h
-c00000000517592F700000000000003D6
-t1366659831
-s982
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp
-c00000000515F822B0000000000000406
-t1365213739
-s1030
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.h
-c00000000515FA2CE0000000000000287
-t1365222094
-s647
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cpp
-c0000000051534CE400000000000000D0
-t1364413668
-s208
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.h
-c0000000051534CE400000000000001CF
-t1364413668
-s463
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp
-c00000000517592F700000000000030D3
-t1366659831
-s12499
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.h
-c00000000517592F700000000000004D3
-t1366659831
-s1235
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp
-c00000000517C498E0000000000001D7C
-t1367099790
-s7548
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.h
-c00000000516020B0000000000000061F
-t1365254320
-s1567
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MainIncludes.h
-c000000005177CCDB00000000000001D6
-t1366805723
-s470
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp
-c000000005177CCDB0000000000003CC5
-t1366805723
-s15557
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.h
-c000000005167303B0000000000000B64
-t1365717051
-s2916
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp
-c000000005177CCDB0000000000000ABE
-t1366805723
-s2750
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.h
-c000000005161C5640000000000000334
-t1365362020
-s820
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp
-c00000000517C6F40000000000000212B
-t1367109440
-s8491
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.h
-c00000000517C6F40000000000000071E
-t1367109440
-s1822
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp
-c00000000515F7DDF0000000000001413
-t1365212639
-s5139
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.h
-c0000000051536CC500000000000004E0
-t1364421829
-s1248
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/PrintfDebug.h
-c0000000051534CE40000000000000138
-t1364413668
-s312
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/SetupMacros.h
-c00000000517C608E0000000000000497
-t1367105678
-s1175
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp
-c00000000517592F70000000000001BFF
-t1366659831
-s7167
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.h
-c000000005162B9AC00000000000004CB
-t1365424556
-s1227
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp
-c00000000517C482E0000000000003103
-t1367099438
-s12547
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.h
-c00000000517592F70000000000000599
-t1366659831
-s1433
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp
-c00000000517592F700000000000007F6
-t1366659831
-s2038
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.h
-c00000000517592F700000000000004A0
-t1366659831
-s1184
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTreeStruct.h
-c00000000517592F70000000000000703
-t1366659831
-s1795
-
-N/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp
-c00000000517C6BBC0000000000000B38
-t1367108540
-s2872
-i"MainIncludes.h"
-
-N/opt/local/include/sndfile.h
-c00000000502190EB00000000000054A0
-t1344377067
-s21664
-
-N/opt/local/include/sndfile.hh
-c00000000502190EB0000000000002E9F
-t1344377067
-s11935
-
-N/usr/local/include/fftw3.h
-c0000000051194D310000000000004546
-t1360612657
-s17734
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp"
-r0
-
-CBuild AST from "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa5bc1ec0a62cb741^4cfb1ec0a62cb741^---0#1#0#--18"Check dependencies36"FC1722B1-D1B8-47AB-B3E4-A76CBD6B65BC-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.165559
-e388798478.918757
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp27842a0e982cb741^2732eb0e982cb741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/AudioFileReader.cpp0000000000000000^3624"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o" Simulsig/AudioFileReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/AudioFileReader.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/AudioFileReader.o"36"B41B6E67-0497-4BD0-B77E-3204E3718709-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388507224.871679
-e388507225.375030
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cppd53cdf582628b741^c90060592628b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/DBWrite.cpp0000000000000000^3576"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o" Simulsig/DBWrite.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DBWrite.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DBWrite.o"36"F85F7788-4F37-4A9D-93B5-1A1FC63EF80F-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388800519.641623
-e388800520.275108
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:132:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
-o    gr_size = database_frame_num;
-o            ~ ^~~~~~~~~~~~~~~~~~
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:228:33: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
-o    printf(" GROUPED WANG : %d",grouped_size);
-o                            ~~  ^~~~~~~~~~~~
-o                            %ld
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:275:56: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
-o    debug_print(("Num frames when grouped      : %d\n",grouped_size));
-o                                                 ~~    ^~~~~~~~~~~~
-o                                                 %ld
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/PrintfDebug.h:13:35: note: expanded from macro 'debug_print'
-o    #define debug_print(a) printf a
-o                                  ^
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:190:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
-o    gr_size = grouped_size;
-o            ~ ^~~~~~~~~~~~
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:239:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
-o    gr_size = grouped_size;
-o            ~ ^~~~~~~~~~~~
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:289:12: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
-o    return grouped_size;
-o    ~~~~~~ ^~~~~~~~~~~~
-o6 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp7d5ba407a02cb741^096c4608a02cb741^-2119"/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:132:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]    gr_size = database_frame_num;            ~ ^~~~~~~~~~~~~~~~~~/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:228:33: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]    printf(" GROUPED WANG : %d",grouped_size);                            ~~  ^~~~~~~~~~~~                            %ld/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:275:56: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]    debug_print(("Num frames when grouped      : %d\n",grouped_size));                                                 ~~    ^~~~~~~~~~~~                                                 %ld/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/PrintfDebug.h:13:35: note: expanded from macro 'debug_print'    #define debug_print(a) printf a                                  ^/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:190:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]    gr_size = grouped_size;            ~ ^~~~~~~~~~~~/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:239:15: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]    gr_size = grouped_size;            ~ ^~~~~~~~~~~~/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp:289:12: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]    return grouped_size;    ~~~~~~ ^~~~~~~~~~~~6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@60"Implicit conversion loses integer precision: 'long' to 'int'-388800520#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^131#14#131#14#3996#0#14"Semantic Issue2(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^131#14#131#32#3996#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^131#12#131#13#3994#0#-2@60"Format specifies type 'int' but the argument has type 'long'-388800520#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^227#32#227#32#7003#0#19"Format String Issue3(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^227#32#227#44#7003#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^227#28#227#30#6999#2#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^227#28#227#30#6999#2#-2@60"Format specifies type 'int' but the argument has type 'long'-388800520#18446744073709551615#0#1(2@33"Expanded from macro 'debug_print'-388800520#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@147"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/PrintfDebug.h0000000000000000^12#34#12#34#254#0#21"Clang LLVM 1.0 Notice3(3@147"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/PrintfDebug.h0000000000000000^274#55#274#67#8670#0#3@147"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/PrintfDebug.h0000000000000000^274#49#274#51#8664#2#3@147"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/PrintfDebug.h0000000000000000^274#49#274#51#8664#2#-1#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^274#55#274#55#39#0#19"Format String Issue3(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^274#55#274#67#8670#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^274#49#274#51#8664#2#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^274#49#274#51#8664#2#-2@60"Implicit conversion loses integer precision: 'long' to 'int'-388800520#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^189#14#189#14#5738#0#14"Semantic Issue2(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^189#14#189#26#5738#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^189#12#189#13#5736#0#-2@60"Implicit conversion loses integer precision: 'long' to 'int'-388800520#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^238#14#238#14#7287#0#14"Semantic Issue2(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^238#14#238#26#7287#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^238#12#238#13#7285#0#-2@60"Implicit conversion loses integer precision: 'long' to 'int'-388800520#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^288#11#288#11#8932#0#14"Semantic Issue2(3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^288#11#288#23#8932#0#3@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^288#4#288#10#8925#0#-0#0#0#-19%DVTDocumentLocation4@146"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Database.cpp0000000000000000^3582"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o" Simulsig/Database.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Database.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Database.o"36"BB6127A0-577D-4AD0-8D21-F3EB9A71EAE4-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.165673
-e388798479.526808
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp9c8c2a0e982cb741^390c8a0f982cb741^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/DatabaseProcessor.cpp0000000000000000^3636"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o" Simulsig/DatabaseProcessor.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/DatabaseProcessor.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/DatabaseProcessor.o"36"A359F0E0-2D4F-46C2-BC7D-7990FD5D0915-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388506263.748815
-e388506264.526159
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cppd601c0972228b741^0cb186982228b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/FFT.cpp0000000000000000^3552"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o" Simulsig/FFT.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FFT.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FFT.o"36"AB09F583-3A34-41CE-8DAD-4295884B2489-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.165503
-e388798479.520868
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp41822a0e982cb741^75068a0f982cb741^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/FeatureExtraction.cpp0000000000000000^3636"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o" Simulsig/FeatureExtraction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FeatureExtraction.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FeatureExtraction.o"36"BEBC7B96-BDC9-4F8F-9872-1405C4AEA45D-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.166782
-e388798479.335640
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cppdacb2a0e982cb741^cdea550f982cb741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/FileWriteR.cpp0000000000000000^3594"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o" Simulsig/FileWriteR.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/FileWriteR.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/FileWriteR.o"36"8AF9EA30-6063-4814-A668-E32CF34A2BE6-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388800519.641649
-e388800520.264323
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cppa25ea407a02cb741^f4a94308a02cb741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/HMMFeatureStateAnalysis.cpp0000000000000000^3672"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o" Simulsig/HMMFeatureStateAnalysis.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HMMFeatureStateAnalysis.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HMMFeatureStateAnalysis.o"36"43EA0161-0626-45FD-AE53-25F2EF05FC25-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s386919495.828930
-e386919496.630409
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cppa855d447ec0fb741^fa60a148ec0fb741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/HammingWindow.cpp0000000000000000^3612"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o" Simulsig/HammingWindow.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/HammingWindow.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/HammingWindow.o"36"903D99F6-9D74-48B3-9195-FF4587A511CA-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s386919496.844767
-e386919497.403304
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cppbf9adb48ec0fb741^7d3d6749ec0fb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/LMDS.cpp0000000000000000^3558"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.o" Simulsig/LMDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/LMDS.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/LMDS.o"36"916C22BF-B8AB-4FB5-BD90-F5FA0B37D50D-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388506264.727753
-e388506265.833448
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp0c77ba982228b741^55a0d6992228b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MDS.cpp0000000000000000^3552"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o" Simulsig/MDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MDS.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MDS.o"36"6C6F4821-9412-4395-B835-4CE983DE1692-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388792590.686828
-e388792591.655194
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp9cfbaf0e812cb741^69c5a70f812cb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MFCC.cpp0000000000000000^3558"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o" Simulsig/MFCC.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MFCC.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MFCC.o"36"CCA76214-C26E-4603-BAC6-1C4F49179396-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798479.337033
-e388798480.814467
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp527e560f982cb741^8480d010982cb741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MarkovChain.cpp0000000000000000^3600"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o" Simulsig/MarkovChain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovChain.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovChain.o"36"939E8DFF-E4FE-4FB7-8341-C8C269D9AA6F-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388802240.129206
-e388802241.049915
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cppce3821c0a62cb741^93c60cc1a62cb741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MarkovMaster.cpp0000000000000000^3606"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o" Simulsig/MarkovMaster.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovMaster.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovMaster.o"36"C353177A-532D-4D7A-9438-A3450855DE8A-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388802240.129316
-e388802241.326946
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp:142:9: warning: unused variable 'ary' [-Wunused-variable]
-o    int ary[32] = {1, 2, 3, 4, 5, 6, 7, 8,
-o        ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp713a21c0a62cb741^07b153c1a62cb741^-259"/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp:142:9: warning: unused variable 'ary' [-Wunused-variable]    int ary[32] = {1, 2, 3, 4, 5, 6, 7, 8,        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'ary'-388802241#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@150"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MarkovPlayer.cpp0000000000000000^141#8#141#8#4282#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@150"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/MarkovPlayer.cpp0000000000000000^3606"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o" Simulsig/MarkovPlayer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/MarkovPlayer.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/MarkovPlayer.o"36"A6689620-9B14-44FC-B2F5-313561718522-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388800519.642903
-e388800520.478837
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cppa7b2a407a02cb741^7d937a08a02cb741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/Player.cpp0000000000000000^3570"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o" Simulsig/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/Player.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Player.o"36"8A959354-D627-49AE-B430-F2DB3711422E-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798479.201826
-e388798480.285845
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp23dd330f982cb741^4e2b4910982cb741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/StateMFCCs.cpp0000000000000000^3594"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o" Simulsig/StateMFCCs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/StateMFCCs.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/StateMFCCs.o"36"B9554377-9888-498F-85BC-05E2D2299F2D-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.920140
-e388798480.320240
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp6abdeb0e982cb741^4cfc5110982cb741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/kMeansClustering.cpp0000000000000000^3630"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o" Simulsig/kMeansClustering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kMeansClustering.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kMeansClustering.o"36"BDAF8911-9DE1-4864-B0BF-CF2A4F162BA1-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388798478.166798
-e388798479.521156
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cppccd22a0e982cb741^ee098a0f982cb741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/kdTree.cpp0000000000000000^3570"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o" Simulsig/kdTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/kdTree.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/kdTree.o"36"9D94CA60-203A-421C-8D04-611A5992E2B6-
-
-CCompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o" "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388802240.126316
-e388802241.147886
-r1
-xCompileC
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp037b20c0a62cb741^28ba26c1a62cb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/thomasrushmore/Documents/Goldsmiths/Third%20Year/Final%20Project/simulsig/Markov%20Chains/FFT%20Chain/Simulsig/main.cpp0000000000000000^3558"CompileC "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o" Simulsig/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-generated-files.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-own-target-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-all-target-headers.hmap" -iquote "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Simulsig-project-headers.hmap" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/include" -I/opt/local/include -I/usr/local/include -I/Developer/SDKs/nanoflann-1.1.4/include -I/Developer/SDKs/tnt_126 -I/Developer/SDKs/tnt_126 "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources/x86_64" "-I/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/DerivedSources" "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.dia" -c "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain/Simulsig/main.cpp" -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/main.o"36"8B79B550-2AC6-4603-BBC6-08232E896038-
-
-CLd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig" normal x86_64
-s388802241.356087
-e388802241.419834
-r1
-xLd
-x/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig03425bc1a62cb741^1c7a6bc1a62cb741^---0#0#0#--1209"Ld "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig" normal x86_64    cd "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/FFT Chain"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -L/usr/local/lib -L/usr/local/include -L/opt/local/lib "-F/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug" -filelist "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Intermediates/Simulsig.build/Debug/Simulsig.build/Objects-normal/x86_64/Simulsig.LinkFileList" -mmacosx-version-min=10.8 -lfftw3 -stdlib=libc++ -lsndfile -framework Accelerate -o "/Users/thomasrushmore/Documents/Goldsmiths/Third Year/Final Project/simulsig/Markov Chains/Build/Products/Debug/Simulsig"36"D0F5EDEC-25F1-4D31-8DAA-C1945ACC9042-
-
