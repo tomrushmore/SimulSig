@@ -1,10 +1,7 @@
 SimulSig
 ========
 
-A new approach to audio-mosaicing using probabilistic modelling
-
-NOTE: The original repo containing commits from the last 4 months can be found here : https://github.com/tomrushmore/historic-simulsig-repo . Commit history - https://github.com/tomrushmore/historic-simulsig-repo/commits/master
-Numerous clones were unremovable during git cleanup resulting in an 1.5gb repo size.
+A new approach to audio-mosaicing using probabilistic modelling.
 
 
 README
